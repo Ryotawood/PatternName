@@ -1,0 +1,81 @@
+<?php
+echo "\n";
+for($y =1; $y<= 9;$y++){
+  for($x =1; $x<= 9;$x++){
+  if($x == 1 || $y == 1 || $y == 4)
+   {echo 'X';
+  } else {
+    echo '`';}
+  }
+echo PHP_EOL; 
+}
+
+?>
+
+<?php
+echo "\n";
+for($y =1; $y<= 9;$y++){
+  for($x =1; $x<= 9;$x++){
+  if($x == 1 || $x == 9 || $y == 1 || $y == 5)
+   {echo 'X';
+  } else {
+    echo '`';}
+  }
+echo PHP_EOL; 
+}
+
+?>
+
+
+<?php
+echo "\n";
+for($y =1; $y<= 9;$y++){
+  for($x =1; $x<= 9;$x++){
+  if($x == 3 && $y == 4|| $x == 7 && $y == 4 || $y == 3 && $x == 4|| $y == 7 && $x == 4){
+   echo 'X';
+  } elseif ($y==$x &&  $y+$x>=10) {
+    echo 'X';
+  } elseif ($y == 7 && $x == 5 || $y == 7 && $x == 6) {
+    echo 'X';
+  } elseif ($y == 3 && $x == 5 || $y == 3 && $x == 6) {
+    echo 'X';
+  } elseif ($x == 3 && $y == 5 || $x == 3 && $y == 6) {
+    echo 'X';
+  } elseif ($x == 7 && $y == 5 || $x == 7 && $y == 6) {
+    echo 'X';
+  } else {
+    echo '`';
+ }
+  }
+echo PHP_EOL; 
+}
+
+?>
+
+<?php
+echo "\n";
+for($y =1; $y<= 9;$y++){
+  for($x =1; $x<= 9;$x++){
+  if($x == 5)
+   {echo 'X';
+  } else {
+    echo '`';}
+  }
+echo PHP_EOL; 
+}
+
+?>
+
+<?php
+echo "\n";
+for($y =1; $y<= 9;$y++){
+  for($x =1; $x<= 9;$x++){
+  if($x == 1 || $x == 9 || $y == 5)
+   {echo 'X';
+  } else {
+    echo '`';}
+  }
+echo PHP_EOL; 
+}
+
+?>
